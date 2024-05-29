@@ -1,0 +1,9 @@
+
+.HomeCont{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 4rem;
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+}

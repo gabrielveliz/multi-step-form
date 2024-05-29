@@ -1,0 +1,18 @@
+.StepsCont{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.Steps{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem;
+}
+.NumberBox{
+    padding: 5rem;
+    background-color: red;
+    border-radius: 10rem;
+}
