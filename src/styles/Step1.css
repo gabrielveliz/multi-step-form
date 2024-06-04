@@ -1,0 +1,64 @@
+.tit h2,.seg input,.seg span{
+    color: hsl(213, 96%, 18%);
+}
+
+.seg{
+    padding: 1rem 6rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.for{
+    margin-top: 2rem;
+}
+
+.seg input{
+    margin-top: 0.5rem;
+    padding: 1.6rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(155, 155, 155);
+    font-weight: 700;
+    font-size: 1.4rem;
+    outline: none;
+}
+.seg input:focus{
+    border: 1px solid hsl(243, 100%, 62%);
+
+}
+.segend{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.segend button{
+    width: 14rem;
+    padding: 1.5rem;
+    background-color: hsl(213, 96%, 18%);
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.segend button:hover{
+    background-color: hsl(213, 66%, 29%);
+}
+
+.tit h2{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.tit span{
+    color: hsl(231, 11%, 63%);
+    font-size: 1.6rem;
+}
+
+.seg .lab{
+    font-weight: 500;
+    font-size: 1.4rem;
+}

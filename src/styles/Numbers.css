@@ -1,7 +1,12 @@
 .StepsCont{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    background-image: url("../images/bg-sidebar-desktop.svg");
+    background-size: cover;
+    border-radius: 2rem;
+    padding: 2rem;
+    color: white;
+    height: 70rem;
 }
 
 .Steps{
@@ -12,7 +17,21 @@
     padding: 2rem;
 }
 .NumberBox{
-    padding: 5rem;
-    background-color: red;
+    padding: 0.9rem 1.4rem;
+    border: 1px white solid;
     border-radius: 10rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desctitl span{
+    color: hsl(231, 11%, 63%);
+    font-size: 1.3rem;
+}
+.descnumb{
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
 }

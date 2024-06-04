@@ -1,9 +1,19 @@
 
 .HomeCont{
-    width: 80%;
+    width: 60%;
     display: grid;
-    grid-template-columns: 40% 60%;
-    padding: 4rem;
+    grid-template-columns: 35% 65%;
+    padding: 1rem;
     background-color: hsl(0, 0%, 100%);
     margin: auto;
+    border-radius: 3rem;
 }
+
+.leftside{
+    padding: 1rem;
+}
+.rightside{
+    padding: 4rem 2rem;
+}
+
+
