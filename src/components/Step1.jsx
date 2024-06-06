@@ -1,6 +1,11 @@
 import "../styles/Step1.css";
 
-const Step1 = () =>{
+const Step1 = ({setOption}) =>{
+
+    function next(){
+        setOption(2)
+    }
+
     return(
         <>
                 <div className="seg tit">
@@ -20,7 +25,7 @@ const Step1 = () =>{
                     <input type="text" placeholder="e. g. +1 234 567 890" />
                 </div>
                 <div className="seg segend">
-                    <button>Next Step</button>
+                    <button onClick={next}>Next Step</button>
                 </div>
 
         </>

@@ -1,0 +1,37 @@
+.plans{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+.plansbox{
+    border: 2px solid hsl(229, 24%, 87%);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+.plansdesc{
+    margin-top: 4rem;
+}
+.membbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ballbox{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(2,1fr);
+    padding: 0.4rem;
+    background-color: hsl(213, 96%, 18%);
+    border-radius: 1rem;
+}
+.opbox{
+
+}
+.ball{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 2rem;
+    background-color: white;
+}
